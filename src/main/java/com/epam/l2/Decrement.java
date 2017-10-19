@@ -7,7 +7,8 @@ public class Decrement {
         System.out.println(decrement.isEven(3));
     }
 
-    private int getNewCount(int count){
+    private int getNewCount(int count) {
+
         return ++count;
     }
 
