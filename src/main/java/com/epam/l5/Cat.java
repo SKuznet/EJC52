@@ -1,12 +1,15 @@
 package com.epam.l5;
 
 public class Cat {
-    private String name;
+    public String name = "Cat";
     private String lastName;
     private String surName;
 
-    public Cat(String name) {
-        this.name = name;
+    public void getInfo(String name) {
+        System.out.println(this.name);
+    }
+
+    public Cat() {
     }
 
     public String getLastName() {
