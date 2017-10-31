@@ -15,6 +15,11 @@ public class Main {
         }
     }
 
+    /*
+    * Ввести что то с клавиатуры
+    * Если то, что вы ввели не равно != "Barsik", выкинуть исключение и уточнить
+    * что должно быть введено - барсик, а у вас - "то что вы ввели"
+    * */
     private int getNumber(String parameter) {
         if (isNumber(parameter)){
             return Integer.parseInt(parameter);
@@ -26,5 +31,4 @@ public class Main {
     private boolean isNumber(String parameter) {
         return parameter.matches("[-+]?\\d+");
     }
-
 }

@@ -14,7 +14,7 @@ public class MainTest {
 
     @Test
     public void testGetCount() {
-        Assert.assertEquals((long) 30, (long) Main.getCount(15));
+        Assert.assertEquals("", (long) 30, (long) Main.getCount(15));
 //        Assert.assertEquals("Самолет может не взлететь из-за некорректного веса", (long) 15, (long) Main.getCount(15));
         Assert.assertEquals(20L, (long) Main.getCount(10));
     }
